@@ -1,10 +1,3 @@
-
-## Project:  S
-# Located:   FILL THIS OUT
-# File Name: FILL THIS OUT
-# Date:      FILL THIS OUT
-# Who:       FILL THIS OUT
-
 ####################################################################################
 ############              Pre-Analysis: settings, packages, and data    ############
 ####################################################################################
@@ -40,6 +33,7 @@ GSS <- mutate(GSS, disagrees = ifelse(nextgen == 3 | nextgen == 4, 1, 0))
 table(GSS$nextgen, GSS$strongly_agree)
 table(GSS$nextgen, GSS$agrees)
 table(GSS$nextgen, GSS$disagrees)
+
 ############                  INDEPENDENT VARIABLE 1 (RACE)             ############
 ############              SUBSTANTIVE VARIABLE NAME HERE                ############
 
